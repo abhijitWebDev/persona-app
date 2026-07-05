@@ -1,0 +1,28 @@
+{
+  "name": "persona-chat",
+  "version": "1.0.0",
+  "description": "AI chat that simulates conversations with Hitesh Choudhary or Piyush Garg",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -n \"server,web\" -c \"cyan,magenta\" \"npm:dev:server\" \"npm:dev:web\"",
+    "dev:server": "node server/index.js",
+    "dev:web": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "openai": "^4.67.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.2",
+    "concurrently": "^9.0.1",
+    "vite": "^5.4.8"
+  }
+}
