@@ -1,5 +1,7 @@
 # ☕ Persona Chat — Hitesh Choudhary & Piyush Garg
 
+**🌐 Live:** [persona.abhijitmone.com](https://persona.abhijitmone.com)
+
 An AI-powered chat app that simulates conversations with two well-known Indian
 tech educators — **Hitesh Choudhary** (Chai aur Code / ChaiCode) and
 **Piyush Garg** (piyushgarg.dev). Each persona replies in its own voice,
