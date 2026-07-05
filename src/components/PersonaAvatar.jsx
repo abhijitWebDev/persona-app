@@ -1,5 +1,5 @@
 import hiteshImg from "../assets/images/hitesh.png";
-import piyushImg from "../assets/images/piyush.jpg";
+import piyushImg from "../assets/images/piyush.png";
 
 /** Real photos for personas; falls back to the emoji avatar when absent. */
 const IMAGES = {
